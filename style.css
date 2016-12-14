@@ -2,9 +2,11 @@
 .navbar {
 	margin-bottom: 0;
 }
+
+/*body is for lower half of page*/
 body {
-	background: #3E4649;
-	color: #f7f7f7;
+	background: #f7f7f7;
+	color: #2E2F31;
 	font-family: 'Oxygen', sans-serif;
 }
 h1,
@@ -13,27 +15,51 @@ h2 {
 }
 p {
 	font-size: 16px;
-	color: #cdcdcd;
+	color: #454442;
 }
 .jumbotron {
-	background: #27A967;
-	color: white;
-	text-align: center;
-	font-family: 'Oxygen', sans-serif;
+	background-image: url("bun.jpg");
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	background-size: cover;
+  	color: FFF;
+	text-align: left;
+	font-family: 'Galada', sans-serif;
 }
+
+.jumbotext {
+  background: rgba(255, 255, 255, 0.35);
+  border-radius: 3px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  margin-left: 20px;
+  margin-right: 20px;
+  top: 10px;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  padding: 10px 10px;
+}
+
+.jumbotron h1 {
+	color: #454442;
+	font-family: 'Galada';
+}
+
 .jumbotron p {
-	color: white;
+	color: #454442;
 	font-size: 26px;
 	font-family: 'Oxygen', sans-serif;
 }
+
 .btn-primary {
-	color: #fff;
+	color: #454442;
 	background-color: transparent;
-	border-color: white;
+	border-color: #454442;
 	margin-bottom: 5px;
+	font-family: 'Oxygen', sans-serif;
 }
 .btn-primary:hover {
-	color: #27A967;
+	color: #454442;
 	background-color: white;
 	border-color: white;
 }
@@ -46,7 +72,7 @@ p {
 	font-size: 16px;
 }
 .navbar-inverse .navbar-nav li a:hover {
-	background: #27A967;
+	background: #454442;
 }
 .dropdown-menu {
 	background: #2E2F31;
@@ -57,7 +83,7 @@ p {
 	padding: 10px;
 }
 .navbar-inverse .navbar-nav .dropdown-menu li a:hover {
-	background: #000000;
+	background: #454442;
 }
 .call-to-action {
 	text-align: center;
